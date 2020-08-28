@@ -1,3 +1,19 @@
-h1 {
-    color: red;
+/* Main Site Body */
+html {
+    position:relative; 
+    min-height: 100%;
+}
+
+body {
+    margin: 0px 0px 100px 0px;
+}
+
+/* Footer */
+.mainFooter {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background-color: red;
 }
