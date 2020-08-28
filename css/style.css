@@ -5,15 +5,96 @@ html {
 }
 
 body {
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 150px 0px;
 }
 
 
 
 /* Hero Cover Section ////////////////////////////// */
+/* Hero Cover Stars //////////////////////////////// */
 .heroCoverSection {
-    background-color: blue;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
 }
+
+.heroCoverSectionInnerStarBase {
+    max-width: 100%;
+    background-image: url("../images/starSpaceCoverBase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    transition: 2.5s;
+    display: block;
+}
+
+.heroCoverSectionInnerStarsOne {
+    max-width: 100%;
+    background-image: url("../images/starSpaceCoverStars01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    transition: 2s;
+}
+
+.heroCoverSectionInnerStarsOne:hover{
+    transform: scale(1.1);
+}
+
+/* Hero Cover Particles //////////////////////////// */
+.particleDiv01 {
+    background-image: url("../images/particles01.png");
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    pointer-events: none;
+    animation-name: particleDiv01;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes particleDiv01 {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    0% {transform: scale(1);}
+  }
+
+.particleDiv02 {
+    background-image: url("../images/particles02.png");
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    pointer-events: none;
+    animation-name: particleDiv02;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes particleDiv02 {
+    0% {transform: scale(1);}
+    50% {transform: scale(2);}
+    0% {transform: scale(1);}
+  }
+
+.particleDiv03 {
+    background-image: url("../images/particles03.png");
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    pointer-events: none;
+    animation-name: particleDiv03;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes particleDiv03 {
+    0% {transform: scale(1);}
+    50% {transform: scale(3);}
+    0% {transform: scale(1);}
+  }
 
 
 
@@ -23,12 +104,17 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    height: 100px;
+    height: 150px;
     background-color: rgb(71, 71, 71);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+.footerLogo {
+    width: 3%;
+    margin: 0px 0px 10px 0px;
 }
 
 .footerTextOne {
