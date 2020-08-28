@@ -8,7 +8,36 @@ body {
     margin: 0px 0px 150px 0px;
 }
 
+/* Main Page Nav Bar /////////////////////////////// */
+.mainPageNavBarSection {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.mainNaveBarContent {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainPageNavBarButton {
+    padding: 0px 25px 0px 0px;
+    color:  rgb(2, 15, 31);
+    text-decoration: none;
+}
+
+.mainPageNavBarButton:hover {
+    color:  rgb(162, 62, 255);
+}
+
+.mainPageNavBarSocialMedia {
+    font-size: 30px;
+}
 
 /* Hero Cover Section ////////////////////////////// */
 /* Hero Cover Stars //////////////////////////////// */
@@ -37,12 +66,70 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .heroCoverSectionInnerStarsOne:hover{
+    transform: scale(1.3);
+}
+
+.heroCoverSectionInnerStarstwo {
+    max-width: 100%;
+    background-image: url("../images/starSpaceCoverStars02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    transition: 2s;
+}
+
+.heroCoverSectionInnerStarstwo:hover{
     transform: scale(1.1);
 }
+
+.heroCoverSectionInnerStarsThree {
+    max-width: 100%;
+    background-image: url("../images/starSpaceCoverStars03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    transition: 2.5s;
+}
+
+.heroCoverSectionInnerStarsThree:hover{
+    transform: scale(1.2);
+}
+
+.heroCoverSectionInnerStarsFour {
+    max-width: 100%;
+    background-image: url("../images/starSpaceCoverStars04.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    transition: 2.5s;
+}
+
+.heroCoverSectionInnerStarsFour:hover{
+    transform: scale(1.1);
+}
+
+.heroCoverLogoSection {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.heroCoverLogoSection:hover{
+    transform: scale(0.5);
+}
+
+.heroCoverLogo {
+    width: 200px;
+}
+
+
 
 /* Hero Cover Particles //////////////////////////// */
 .particleDiv01 {
@@ -98,6 +185,14 @@ body {
 
 
 
+/* Sub Hero Title Section ////////////////////////// */
+.subHeroCoverSection {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(2, 15, 31);
+}
+
+
 /* Footer ////////////////////////////////////////// */
 .mainFooter {
     position: absolute;
@@ -105,7 +200,7 @@ body {
     left: 0px;
     right: 0px;
     height: 150px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(2, 15, 31);
     display: flex;
     justify-content: center;
     flex-direction: column;
