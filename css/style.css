@@ -201,6 +201,81 @@ body {
 }
 
 
+
+/* Body Section: About Me ////////////////////////// */
+.bodySectionAbout {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodySectionAboutContent {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMeProfileImage {
+    width: 300px;
+}
+
+.aboutMeTextArea {
+    padding: 0px 0px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutMeTextAreaHeading {
+    color:  rgb(2, 15, 31);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.aboutMeTextAreaParagraph {
+    color: grey;
+    padding: 15px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.bodySectionCodingDesignPortfolioLinksSection {
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.bodySectionCodingDesignPortfolioLinksContainer {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.bodySectionCodingDesignPortfolioLinkBlockOne {
+    padding: 0px 20px 0px 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bodySectionCodingDesignPortfolioLinkBlockTwo {
+    padding: 0px 0px 0px 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bodySectionCodingDesignPortfolioLinkImage {
+    width: 100%;
+    height: auto;
+}
+
 /* Footer ////////////////////////////////////////// */
 .mainFooter {
     position: absolute;
