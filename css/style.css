@@ -13,7 +13,6 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +60,7 @@ body {
     max-width: 100%;
     height: 800px;
     position: relative;
+    cursor: crosshair;
     overflow: hidden;
 }
 
@@ -261,6 +261,9 @@ body {
 .portfolioLinksSection {
     width: 100%;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolioLinksContainer {
@@ -354,7 +357,7 @@ body {
 }
 .skillIcon {
     font-size: 30px;
-    color: rgb(0, 255, 55);
+    color: rgb(189, 91, 255);
     margin: 0px 0px 15px 0px;
 }
 .skillText {
@@ -531,14 +534,33 @@ body {
     }
 }
 
-/* Media Breaks ////////////////////////////////////////// */
-/* Footer //////////////////////////////////////////////// */
+/* Other Pages ////////////////////////////////////////// */
 
 .homeLogo {
     width: 100px;
+    transition: 0.5s;
+}
+.homeLogo:hover {
+    width: 100px;
+    transform: scale(1.1);
 }
 .pageNavBarLogoContainer {
     width: 150px;
+}
+
+.otherPageTitleSection {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherPageMainTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
