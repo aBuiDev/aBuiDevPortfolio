@@ -409,7 +409,7 @@ body {
         align-items: center;
     }
     .mainNaveBarContent {
-        width: 100%;
+        width: 80%;
         padding: 0px;
         margin: 0px;
         display: flex;
@@ -421,13 +421,13 @@ body {
     .mainPageNavBarButtons {
         padding: 0px;
         margin: 0 auto;
-        width: 100%;
+        width: 80;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .mainPageNavBarButton {
-        padding: 0px 15px 0px 15px;
+        padding: 0px 5px 0px 5px;
         margin: 15px 0px 15px 0px;
         text-align: center;
     }
@@ -535,4 +535,10 @@ body {
 
 .homeLogo {
     width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .homeLogo {
+        display: none;
+    }
 }
