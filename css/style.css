@@ -320,6 +320,7 @@ body {
 /* Skillset Icon Section /////////////////////////// */
 .skillSetIconsSection {
     background-color: rgb(8, 54, 92);
+    margin: 0px 0px 150px 0px;
     width: 100%;
     height: 1000px;
     display: flex;
@@ -328,7 +329,9 @@ body {
 }
 
 .skillSetIconsContainer {
-
+    width: 80%;
+    background-color: red;
+    height: 80%;
 }
 
 
@@ -411,6 +414,35 @@ body {
     }
   }
 
+  @media only screen and (max-width: 1020px) {
+      .bodySectionAbout {
+        height: 800px;
+      }
+
+      .aboutMeTextArea {
+          margin: 50px 0px 0px 0px;
+          align-items: center;
+          padding: 0px;
+      }
+
+    .bodySectionAboutContent {
+        width: 80%;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .developerContainer {
+        width: 100%;
+        height: 300px;
+    }
+    .designerContainer {
+        width: 100%;
+        height: 300px;
+    }
+}
+
 /* Media Breaks ////////////////////////////////////////// */
 /* Hero Cover //////////////////////////////////////////// */
 @media only screen and (max-width: 600px) {
@@ -450,6 +482,9 @@ body {
         width: 80%;
         height: 100%;
     }
+    .portfolioLinksElementContainer {
+        width: 100%;
+    }
     .developerContainer {
         width: 100%;
         height: 300px;
@@ -459,6 +494,8 @@ body {
         height: 300px;
     }
 }
+
+
 
 /* Media Breaks ////////////////////////////////////////// */
 /* Footer //////////////////////////////////////////////// */
