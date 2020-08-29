@@ -37,11 +37,14 @@ body {
 }
 
 .mainPageNavBarSocialMedia {
+    width: 150px;
     font-size: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .mainPageNavBarSocialMediaButton {
-    padding: 0px 25px 0px 0px;
+    padding: 0px 0px 0px 0px;
     color:  rgb(2, 15, 31);
     text-decoration: none;
     transition: 0.25s;
@@ -423,12 +426,10 @@ body {
         margin: 0 auto;
         width: 80;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     .mainPageNavBarButton {
-        padding: 0px 5px 0px 5px;
-        margin: 15px 0px 15px 0px;
         text-align: center;
     }
     .mainPageNavBarSocialMedia {
@@ -535,6 +536,9 @@ body {
 
 .homeLogo {
     width: 100px;
+}
+.pageNavBarLogoContainer {
+    width: 150px;
 }
 
 @media only screen and (max-width: 600px) {
