@@ -43,8 +43,6 @@ body {
 /* Hero Cover Stars //////////////////////////////// */
 .heroCoverSection {
     max-width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 800px;
     position: relative;
     overflow: hidden;
@@ -244,40 +242,85 @@ body {
     line-height: 25px;
 }
 
-.bodySectionCodingDesignPortfolioLinksSection {
-    margin: 0 auto;
+.portfolioLinksSection {
+    background-color: rgb(0, 60, 128);
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.bodySectionCodingDesignPortfolioLinksContainer {
+.portfolioLinkElementsOne {
+    background-color: rgb(148, 221, 11);
     width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.portfolioLinkElementsTwo {
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.portfolioLinkElementDeveloper {
+    background-image: url("/images/aBuiDevBase.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 400px;
+    position: relative;
+    transition: 1s;
+}
+
+.portfolioLinkElementDeveloper:hover {
+    transform: scale(1.1);
+}
+
+.portfolioLinksDeveloperElementOne {
+    background-image: url("/images/aBuiDevDeveloperSymbol.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 400px;
+    position: absolute;
+    transition: 1s;
+}
+
+
+
+/* Page Splitter 02 ////////////////////////////////////////// */
+.secondaryTitlePageSplitter {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(2, 15, 31);
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
 }
 
-.bodySectionCodingDesignPortfolioLinkBlockOne {
-    padding: 0px 20px 0px 0px;
-    width: 100%;
-    overflow: hidden;
+.secondaryTitlePageSplitterTest {
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
-.bodySectionCodingDesignPortfolioLinkBlockTwo {
-    padding: 0px 0px 0px 20px;
-    width: 100%;
-    overflow: hidden;
-}
 
-.bodySectionCodingDesignPortfolioLinkImage {
-    width: 100%;
-    height: auto;
-}
 
 /* Footer ////////////////////////////////////////// */
 .mainFooter {
+    margin: 150px 0px 0px 0px;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -291,7 +334,7 @@ body {
 }
 
 .footerLogo {
-    width: 3%;
+    width: 50px;
     margin: 0px 0px 10px 0px;
 }
 
@@ -309,3 +352,75 @@ body {
     font-size: 10px;
 }
 
+/* Media Breaks ////////////////////////////////////////// */
+/* Nav Bar /////////////////////////////////////////////// */
+@media only screen and (max-width: 600px) {
+    .mainPageNavBarSection {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainNaveBarContent {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .mainPageNavBarButtons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mainPageNavBarButton {
+        margin: 15px 0px 15px 0px;
+    }
+    .mainPageNavBarSocialMedia {
+        font-size: 30px;
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+/* Media Breaks ////////////////////////////////////////// */
+/* Nav Bar /////////////////////////////////////////////// */
+
+
+/* Media Breaks ////////////////////////////////////////// */
+/* Body Content ////////////////////////////////////////// */
+
+@media only screen and (max-width: 600px) {
+    .bodySectionAbout {
+        width: 100%;
+    }
+    .bodySectionAbout {
+        height: 900px;
+    }
+    .bodySectionAboutContent {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutMeTextArea {
+        margin: 0 auto;
+        padding: 25px 0px 0px 0px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Media Breaks ////////////////////////////////////////// */
+/* Footer //////////////////////////////////////////////// */
