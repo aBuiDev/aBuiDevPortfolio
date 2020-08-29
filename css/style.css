@@ -322,16 +322,41 @@ body {
     background-color: rgb(8, 54, 92);
     margin: 0px 0px 150px 0px;
     width: 100%;
-    height: 1000px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .skillSetIconsContainer {
     width: 80%;
-    background-color: red;
-    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.skillElement {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.skillElement:hover{
+    transform: scale(1.1);
+}
+.skillIcon {
+    font-size: 30px;
+    color: rgb(0, 255, 55);
+    margin: 0px 0px 15px 0px;
+}
+.skillText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
 }
 
 
