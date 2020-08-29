@@ -183,8 +183,8 @@ body {
 
 
 
-/* Sub Hero Title Section ////////////////////////// */
-.subHeroCoverSection {
+/* pageSplitter ////////////////////////// */
+.pageSplitter {
     width: 100%;
     height: 150px;
     background-color: rgb(2, 15, 31);
@@ -193,7 +193,7 @@ body {
     align-items: center;
 }
 
-.subHeroCoverSectionText {
+.pageSplitterText {
     font-family: 'Poppins', sans-serif;
     color: white;
 }
@@ -251,57 +251,19 @@ body {
     align-items: center;
 }
 
-.portfolioLinkElementsOne {
-    background-color: rgb(148, 221, 11);
-    width: 70%;
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    overflow: hidden;
-}
-
-.portfolioLinkElementsTwo {
-    width: 70%;
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    overflow: hidden;
-    position: absolute;
-}
-
-.portfolioLinkElementDeveloper {
-    background-image: url("/images/aBuiDevBase.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 48%;
-    height: 400px;
-    position: relative;
-    transition: 1s;
-}
-
-.portfolioLinkElementDeveloper:hover {
-    transform: scale(1.1);
-}
-
-.portfolioLinksDeveloperElementOne {
-    background-image: url("/images/aBuiDevDeveloperSymbol.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 48%;
-    height: 400px;
-    position: absolute;
-    transition: 1s;
-}
 
 
 
-/* Page Splitter 02 ////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+/* Page Splitter 02 //////////////////////// //////// */
 .secondaryTitlePageSplitter {
     width: 100%;
     height: 150px;
@@ -311,9 +273,11 @@ body {
     align-items: center;
 }
 
-.secondaryTitlePageSplitterTest {
-    font-family: 'Poppins', sans-serif;
-    color: white;
+
+
+/* Portfolio Links Section ///////////////////////// */
+.portfolioLinksSection {
+    height: 1000px;
 }
 
 
@@ -356,8 +320,7 @@ body {
 /* Nav Bar /////////////////////////////////////////////// */
 @media only screen and (max-width: 600px) {
     .mainPageNavBarSection {
-        padding: 0px;
-        margin: 0px;
+        margin: 0 auto;
         width: 100%;
         height: 150px;
         display: flex;
@@ -376,12 +339,17 @@ body {
 
     }
     .mainPageNavBarButtons {
+        padding: 0px;
+        margin: 0 auto;
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .mainPageNavBarButton {
+        padding: 0px 15px 0px 15px;
         margin: 15px 0px 15px 0px;
+        text-align: center;
     }
     .mainPageNavBarSocialMedia {
         font-size: 30px;
@@ -393,8 +361,11 @@ body {
   }
 
 /* Media Breaks ////////////////////////////////////////// */
-/* Nav Bar /////////////////////////////////////////////// */
-
+/* Hero Cover //////////////////////////////////////////// */
+@media only screen and (max-width: 600px) {
+    .heroCoverSection {
+        width: 100%;
+    }
 
 /* Media Breaks ////////////////////////////////////////// */
 /* Body Content ////////////////////////////////////////// */
