@@ -645,6 +645,7 @@ body {
 .contactFormInputElementsLabels {
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
+    color: white;
     margin: 0px 0px 15px 0px;
 }
 
@@ -653,7 +654,7 @@ body {
 }
 
 .contactFormInputElementsInput:focus {
-    
+    outline: none;
 }
 
 .contactFormInputElementsTextAreaInput {
@@ -664,6 +665,10 @@ body {
     margin: 50px 0px 50px 0px;
     display: flex;
     flex-direction: column;
+}
+
+.contactFormInputElementsTextArea {
+    outline: none;
 }
 
 .contactFormSubmitButtonContainer {
@@ -687,5 +692,15 @@ body {
     }
     .homeLogo {
         display: none;
+    }
+    .contactFormInputElementsContainer {
+        flex-direction: column;
+    }
+    .contactFormSection {
+        height: 700px;
+    }
+    .contactFormInputElements {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
     }
 }
