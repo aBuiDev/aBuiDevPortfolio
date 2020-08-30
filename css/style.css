@@ -661,6 +661,10 @@ body {
     height: 150px;
 }
 
+.contactFormInputElementsTextAreaInput:focus {
+    outline: none;
+}
+
 .contactFormInputElementsTextArea {
     margin: 50px 0px 50px 0px;
     display: flex;
@@ -679,6 +683,14 @@ body {
 .contactFormSubmitButton {
     width: 500px;
     height: 50px;
+    transition: 0.5s;
+}
+
+.contactFormSubmitButton:hover {
+    background-color: rgb(162, 62, 255);
+    color: white;
+    border: none;
+    transform: scale(0.95);
 }
 
 
