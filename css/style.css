@@ -36,7 +36,7 @@ body {
 }
 
 .mainPageNavBarSocialMedia {
-    width: 150px;
+    width: 200px;
     font-size: 30px;
     display: flex;
     justify-content: space-between;
@@ -548,7 +548,7 @@ body {
     transform: scale(1.1);
 }
 .pageNavBarLogoContainer {
-    width: 150px;
+    width: 200px;
 }
 
 .otherPageTitleSection {
