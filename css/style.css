@@ -576,16 +576,16 @@ body {
     width: 90%;
     background-color: rgb(196, 83, 83);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .portfolioProjectsElementContainer {
-    margin: 25px 0px 25px 0px;
-    width: 360px;
-    height: 360px;
+    margin: 25px 0px 0px 25px;
+    width: 330px;
+    height: 330px;
     background-color: rgb(143, 92, 92);
     overflow: hidden;
 }
@@ -595,26 +595,9 @@ body {
     background-color: rgb(209, 183, 183);
 }
 
-@media only screen and (max-width: 1240px) {
-    .portfolioProjectsElementContainer {
-        width: 33%;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    .portfolioProjectsElementContainer {
-        width: 49%;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .portfolioProjectsElementContainer {
-        width: 100%;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .portfolioProjectsElementContainer {
+        margin: 25px 25px 0px 25px;
         width: 100%;
     }
     .homeLogo {
