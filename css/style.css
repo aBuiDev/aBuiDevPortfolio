@@ -612,6 +612,71 @@ body {
     transform: scale(1.05);
 }
 
+/* Contact Page /////////////////////////////////////// */
+.contactFormSection {
+    background-color: rgb(8, 54, 92);
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.contactFormContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contactFormInputElementsContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contactForm {
+    width: 80%;
+}
+
+.contactFormInputElements {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactFormInputElementsLabels {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin: 0px 0px 15px 0px;
+}
+
+.contactFormInputElementsInput {
+    height: 30px;
+}
+
+.contactFormInputElementsInput:focus {
+    
+}
+
+.contactFormInputElementsTextAreaInput {
+    height: 150px;
+}
+
+.contactFormInputElementsTextArea {
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactFormSubmitButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.contactFormSubmitButton {
+    width: 500px;
+    height: 50px;
+}
+
+
 @media only screen and (max-width: 600px) {
     .portfolioProjectsElementContainer {
         margin: 25px 25px 0px 25px;
