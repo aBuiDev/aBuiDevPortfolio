@@ -700,7 +700,6 @@ body {
 
 /* Blogs Page ///////////////////////////////////// */
 .blogsSection {
-  background-color: purple;
   width: 100%;
   height: auto;
   display: flex;
@@ -710,14 +709,12 @@ body {
 .blogsContainer {
   width: 90%;
   margin: 25px 0px 25px 0px;
-  background-color: rgb(182, 45, 182);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .blogElementContainer {
-  width: 90%;
-  background-color: rgb(206, 94, 206);
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -726,7 +723,6 @@ body {
 .blogElement {
   width: 90%;
   margin: 25px 0px 25px 0px;
-  background-color: rgb(0, 94, 156);
 }
 .blogTitleDateContainer {
   margin: 0px 0px 25px 0px;
@@ -747,6 +743,41 @@ body {
   margin: 0px 0px 25px 0px;
   font-size: 12px;
   line-height: 25px;
+}
+.blogGalleryContentContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.blogGalleryContentElements {
+  margin: 0px 10px 15px 0px;
+  width: 250px;
+  height: 250px;
+}
+.blogImagesTitleContainer {
+  font-family: "Poppins", sans-serif;
+  margin: 0px 0px 25px 0px;
+}
+.blogGalleryImages {
+  width: 100%;
+  height: 100%;
+}
+.blogSeparatorContainer {
+  width: 100%;
+  height: 150px;
+}
+.blogSeparatorElement {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogSeparator {
+  font-size: 30px;
+  color: rgb(162, 62, 255);
 }
 
 @media only screen and (max-width: 600px) {
@@ -770,8 +801,22 @@ body {
     width: 100%;
     margin: 0px 0px 30px 0px;
   }
+  .blogElementContainer {
+    width: 100%;
+  }
+  .blogElement {
+    width: 100%;
+  }
   .blogTitleDateContainer {
+    margin: 25px 0px 25px 0px;
     align-items: right;
-    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .blogDate {
+    margin: 0px 0px 25px 0px;
+    font-size: 12px;
+  }
+  .blogImagesTitle {
+    text-align: center;
   }
 }
