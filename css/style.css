@@ -728,6 +728,26 @@ body {
   margin: 25px 0px 25px 0px;
   background-color: rgb(0, 94, 156);
 }
+.blogTitleDateContainer {
+  margin: 0px 0px 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.blogTitle {
+  font-family: "Poppins", sans-serif;
+}
+.blogDate {
+  font-family: "Poppins", sans-serif;
+}
+.blogParagraph {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  margin: 0px 0px 25px 0px;
+  font-size: 12px;
+  line-height: 25px;
+}
 
 @media only screen and (max-width: 600px) {
   .portfolioProjectsElementContainer {
@@ -749,5 +769,9 @@ body {
   .contactFormInputElements {
     width: 100%;
     margin: 0px 0px 30px 0px;
+  }
+  .blogTitleDateContainer {
+    align-items: right;
+    flex-direction: column;
   }
 }
