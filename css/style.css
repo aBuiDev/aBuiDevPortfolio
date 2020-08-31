@@ -699,6 +699,52 @@ body {
 }
 
 /* Blogs Page ///////////////////////////////////// */
+.blogMenuListSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogMenuListContainer {
+  width: 80%;
+}
+
+.blogMenuListElements {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogMenuLinkAnchorElement:link {
+  text-decoration: none;
+}
+
+.blogMenuElement {
+  margin: 15px 15px 15px 15px;
+  width: 100px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.blogMenuElementTitle {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-align: center;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.blogMenuElementDate {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 10px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
 .blogsSection {
   width: 100%;
   height: auto;
