@@ -758,8 +758,9 @@ body {
   height: 250px;
 }
 .blogImagesTitleContainer {
+  height: auto;
   font-family: "Poppins", sans-serif;
-  margin: 0px 0px 25px 0px;
+  margin: 50px 0px 30px 0px;
 }
 .blogGalleryImages {
   width: 100%;
@@ -815,6 +816,14 @@ body {
   .blogDate {
     margin: 0px 0px 25px 0px;
     font-size: 12px;
+  }
+  .blogGalleryContentContainer {
+    justify-content: center;
+  }
+  .blogGalleryContentElements {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 15px 0px;
   }
   .blogImagesTitle {
     text-align: center;
