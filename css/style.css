@@ -37,7 +37,7 @@ body {
 
 .mainPageNavBarSocialMedia {
   width: 200px;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: space-between;
 }
