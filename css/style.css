@@ -311,6 +311,32 @@ body {
   transform: scale(1.05);
 }
 
+.developerCurtain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: 0.5s;
+}
+
+.developerCurtain:hover .developerCurtainTextBox {
+  background-color: rgb(49, 49, 49, 80%);
+  color: rgb(255, 255, 255);
+}
+
+.developerCurtainTextBox {
+  font-family: "Poppins", sans-serif;
+  color: rgb(162, 62, 255, 0%);
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+
 /* Page Splitter 02 //////////////////////// //////// */
 .secondaryTitlePageSplitter {
   width: 100%;
