@@ -257,32 +257,6 @@ body {
   justify-content: center;
 }
 
-.aboutMeProfileImage {
-  width: 300px;
-}
-
-.aboutMeTextArea {
-  padding: 0px 0px 0px 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.aboutMeTextAreaHeading {
-  color: rgb(2, 15, 31);
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  line-height: 40px;
-}
-
-.aboutMeTextAreaParagraph {
-  color: grey;
-  padding: 15px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-  line-height: 25px;
-}
-
 .portfolioLinksSection {
   width: 100%;
   height: 500px;
@@ -308,7 +282,7 @@ body {
 }
 
 .developerContainer {
-  background-image: url("/images/aBuiDevDeveloperSymbol.jpg");
+  background-image: url("../images/aBuiDevDeveloperSymbol.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,7 +292,7 @@ body {
 }
 
 .designerContainer {
-  background-image: url("/images/auBuiltDesignSymbol.jpg");
+  background-image: url("../images/auBuiltDesignSymbol.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -628,6 +602,56 @@ body {
 
 .designProjectsElement:hover {
   transform: scale(1.05);
+}
+
+/* About Me Page */
+.aboutMeProfileImage {
+  width: 350px;
+}
+
+.aboutMeTextArea {
+  padding: 0px 0px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutMeTextAreaHeading {
+  color: rgb(2, 15, 31);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.aboutMeTextAreaParagraph {
+  color: grey;
+  padding: 15px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.aboutMeResumeButton {
+  margin: 25px 0px 0px 0px;
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.aboutMeResumeButton:hover {
+  background-color: rgb(162, 62, 255);
+  color: white;
+  border: none;
+  transform: scale(0.95);
+}
+
+.aboutMeResumeButtonResumeIcon {
+  font-size: 20px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 
 /* Contact Page /////////////////////////////////////// */
