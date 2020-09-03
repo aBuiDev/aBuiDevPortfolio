@@ -19,16 +19,25 @@ body {
 }
 
 .mainNaveBarContent {
-  width: 70%;
+  width: 80%;
+  height: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.mainPageNavBarButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .mainPageNavBarButton {
-  padding: 0px 25px 0px 0px;
+  padding: 15px 15px 0px 15px;
   color: rgb(2, 15, 31);
   text-decoration: none;
+  text-align: center;
 }
 
 .mainPageNavBarButton:hover {
@@ -47,6 +56,10 @@ body {
   color: rgb(2, 15, 31);
   text-decoration: none;
   transition: 0.25s;
+}
+
+.mainPageNavBarSocialMediaSeparator {
+  text-decoration: none;
 }
 
 .mainPageNavBarSocialMediaButton:hover {
@@ -431,13 +444,13 @@ body {
   }
   .mainPageNavBarButtons {
     padding: 0px;
-    margin: 0 auto;
-    width: 80;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
   .mainPageNavBarButton {
+    margin: 15px 0px 0px 0px;
     padding: 5px;
     text-align: center;
   }
@@ -618,6 +631,52 @@ body {
 }
 
 /* Contact Page /////////////////////////////////////// */
+.contactDetailsSection {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactDetailsContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailElements {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailElement {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailElementIcon {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  margin: 15px;
+}
+
+.detailElementInfo {
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .detailElements {
+flex-direction: column-reverse;
+  }
+}
+
 .contactFormSection {
   background-color: rgb(8, 54, 92);
   height: 500px;
@@ -697,6 +756,7 @@ body {
   border: none;
   transform: scale(0.95);
 }
+
 
 /* Blogs Page ///////////////////////////////////// */
 .blogMenuListSection {
