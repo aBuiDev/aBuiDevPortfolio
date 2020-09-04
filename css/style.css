@@ -433,9 +433,6 @@ body {
 
 
 
-/* Nav Bar /////////////////////////////////////////////// */
-
-
 /* Other Pages ////////////////////////////////////////// */
 
 .homeLogo {
@@ -490,22 +487,79 @@ body {
 }
 
 .portfolioProjectsElementContainer {
+  position: relative;
   margin: 25px 10px 25px 10px;
   width: 330px;
   height: 330px;
   overflow: hidden;
 }
 
-.portfolioProjectsElement {
+.portfolioProjectElementContainerCurtain {
+  background-color: rgb(162, 62, 255, 0%);
   width: 100%;
-  height: 360px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
 }
 
-.designProjectsElementContainer {
-  margin: 25px 25px 25px 25px;
-  width: 500px;
+.portfolioProjectsElementContainer .portfolioProjectElementContainerCurtain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolioProjectsElementContainer:hover .portfolioProjectElementContainerCurtain {
+  background-color: rgb(162, 62, 255, 80%);
+}
+
+.codingProjectsElement {
+  width: 100%;
   height: auto;
-  overflow: hidden;
+  transition: 0.5s;
+}
+
+.portfolioProjectsElementContainer:hover .codingProjectsElement {
+  transform: scale(1.05);
+}
+
+.portfolioProjectTitle {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0);
+  margin: 0px 0px 25px 0px;
+  transition: 0.5s;
+}
+
+.portfolioProjectsElementContainer:hover .portfolioProjectTitle {
+  color: rgba(255, 255, 255, 100%);
+}
+
+.portfolioProjectIcon {
+  color: rgba(255, 255, 255, 0%);
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0px 10px 0px 10px;
+  transition: 0.5s;
+}
+
+.portfolioProjectsElementContainer:hover .portfolioProjectIcon {
+  color: rgba(255, 255, 255, 100%);
+}
+
+.portfolioLanguageIcon {
+  color: rgba(255, 255, 255, 0%);
+  font-size: 30px;
+  text-decoration: none;
+  margin: 0px 10px 25px 10px;
+  transition: 0.5s;
+}
+
+.portfolioProjectsElementContainer:hover .portfolioLanguageIcon {
+  color: rgba(255, 255, 255, 100%);
 }
 
 .designProjectsElement {
@@ -516,6 +570,13 @@ body {
 
 .designProjectsElement:hover {
   transform: scale(1.05);
+}
+
+.designProjectsElementContainer {
+  margin: 25px 25px 25px 25px;
+  width: 500px;
+  height: auto;
+  overflow: hidden;
 }
 
 /* About Me Page */
