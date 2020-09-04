@@ -323,6 +323,8 @@ body {
 .developerCurtain:hover .developerCurtainTextBox {
   background-color: rgb(49, 49, 49, 80%);
   color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  margin: 0px 0px 50px 0px;
 }
 
 .developerCurtainTextBox {
