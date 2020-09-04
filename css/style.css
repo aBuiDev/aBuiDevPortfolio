@@ -335,7 +335,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  line-height: 30px;
   transition: 0.5s;
+}
+
+.developerCurtainTextBoxInnerTextCall {
+  font-size: 12px;
 }
 
 
