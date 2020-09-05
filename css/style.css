@@ -1061,58 +1061,8 @@ height: 150px;
 /* 600px /////////////////////////////////////////// */
 /* ///////////////////////////////////////////////// */
 @media only screen and (max-width: 600px) {
-  .portfolioProjectsElementContainer {
-    margin: 25px 25px 0px 25px;
-    width: 100%;
-  }
-  .designProjectsElementContainer {
-    width: 100%;
-  }
-  .homeLogo {
-    display: none;
-  }
-  .pageNavBarLogoContainer {
-    padding: 20px 0px 0px 0px;
-  }
-  .contactFormInputElementsContainer {
-    flex-direction: column;
-  }
-  .contactFormSection {
-    height: 700px;
-  }
-  .contactFormInputElements {
-    width: 100%;
-    margin: 0px 0px 30px 0px;
-  }
-  .blogElementContainer {
-    width: 100%;
-  }
-  .blogElement {
-    width: 100%;
-  }
-  .blogTitleDateContainer {
-    margin: 25px 0px 25px 0px;
-    align-items: right;
-    flex-direction: column-reverse;
-  }
-  .blogDate {
-    margin: 0px 0px 25px 0px;
-    font-size: 12px;
-  }
-  .blogGalleryContentContainer {
-    justify-content: center;
-  }
-  .blogGalleryContentElements {
-    width: 100%;
-    height: auto;
-    margin: 0px 0px 15px 0px;
-  }
-  .blogImagesTitle {
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 600px) {
+  /* Main Page /////////////////// */
+  /* Main Page Nav Bar /////////// */
   .mainPageNavBarSection {
     margin: 0 auto;
     width: 100%;
@@ -1150,44 +1100,32 @@ height: 150px;
     justify-content: center;
     align-items: center;
   }
+  .heroCoverSection {
+    width: 100%;
+  }
+
+
+  /* Main Page /////////////////// */
+  /* Hero Cover ////////////////// */
   .mainPageNavBarSocialMediaButton {
     margin: 0;
     padding: 10px 10px 10px 10px;
     color: rgb(162, 62, 255);
   }
-  .skillSetIconsSection {
-    height: 700px;
-  }
-}
 
-@media only screen and (max-width: 600px) {
-  .heroCoverSection {
-    width: 100%;
-  }
-}
 
-@media only screen and (max-width: 600px) {
-  .bodySectionAbout {
-    width: 100%;
+  /* Sub Pages /////////////////// */
+  /* Sub Pages Navigation //////// */
+  .homeLogo {
+    display: none;
   }
-  .bodySectionAbout {
-    height: 900px;
+  .pageNavBarLogoContainer {
+    padding: 20px 0px 0px 0px;
   }
-  .bodySectionAboutContent {
-    height: 1000px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .aboutMeTextArea {
-    margin: 0 auto;
-    padding: 25px 0px 0px 0px;
-    width: 100%;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
+
+
+  /* Main Page /////////////////// */
+  /* Portfolio Links ///////////// */
   .portfolioLinksSection {
     height: 800px;
   }
@@ -1210,15 +1148,99 @@ height: 150px;
     width: 100%;
     height: 300px;
   }
-}
 
-@media only screen and (max-width: 600px) {
+
+  /* About Page ////////////////// */
+  /* Skill Set Icons Section ///// */
+  .skillSetIconsSection {
+    height: 700px;
+  }
+
+
+  /* About Page ////////////////// */
+  /* Image & Text Section //////// */
+  .bodySectionAbout {
+    width: 100%;
+  }
+  .bodySectionAbout {
+    height: 900px;
+  }
+  .bodySectionAboutContent {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutMeTextArea {
+    margin: 0 auto;
+    padding: 25px 0px 0px 0px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
   .detailElements {
-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
   .hobbiesSectionElementsContainer {
     flex-direction: column;
     height: 400px;
+  }
+
+
+  /* Blog Page /////////////////// */
+  /* Blog Page Feed Layout /////// */
+  .blogElementContainer {
+    width: 100%;
+  }
+  .blogElement {
+    width: 100%;
+  }
+  .blogTitleDateContainer {
+    margin: 25px 0px 25px 0px;
+    align-items: right;
+    flex-direction: column-reverse;
+  }
+  .blogDate {
+    margin: 0px 0px 25px 0px;
+    font-size: 12px;
+  }
+  .blogGalleryContentContainer {
+    justify-content: center;
+  }
+  .blogGalleryContentElements {
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 15px 0px;
+  }
+  .blogImagesTitle {
+    text-align: center;
+  }
+
+
+  /* Contact Page //////////////// */
+  /* Contact Page Form /////////// */
+  .contactFormInputElementsContainer {
+    flex-direction: column;
+  }
+  .contactFormSection {
+    height: 700px;
+  }
+  .contactFormInputElements {
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+  }
+
+
+  /* Portfolio Page ////////////// */
+  /* Portfolio Page Layout /////// */
+  .portfolioProjectsElementContainer {
+    margin: 25px 25px 0px 25px;
+    width: 100%;
+  }
+  .designProjectsElementContainer {
+    width: 100%;
   }
 }
 
@@ -1227,6 +1249,8 @@ flex-direction: column-reverse;
 /* Media Pages ///////////////////////////////////// */
 /* 770px /////////////////////////////////////////// */
 @media only screen and (max-width: 770px) {
+  /* Main Page /////////////////// */
+  /* Main Page Nav Bar /////////// */
   .mainNavBarContent {
     width: 90%;
   }
@@ -1237,6 +1261,10 @@ flex-direction: column-reverse;
   .mainPageNavBarButton {
     font-size: 12px;
   }
+
+  
+  /* Sub Pages /////////////////// */
+  /* Nav Bars //////////////////// */
   .pageNavBarLogoContainer {
     flex-direction: column;
   }
