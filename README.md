@@ -17,7 +17,7 @@
 ## Deployment / Links
 Link to Deployed Website [Here](https://youtu.be/6xd0MWG57CA). <br>
 Link to GitHub Repository [Here](https://github.com/aBuiDev/aBuiDevPortfolio.git). <br>
-Link to ed Workspace [Here](https://youtu.be/6xd0MWG57CA). <br>
+Link to ed Workspace [Here](https://edstem.org/courses/4464/workspaces/pYhSpI78iu48yZkAOxngxYyzWQ3WZ0AW). <br>
 
 <br>
 
@@ -50,11 +50,21 @@ AND GIVES ME EASY ACCESSIBILITY TO CONTACT/REACH OUT TO THE DEVELOPER. <br>
 
 ## Screenshots
 
-![About Page](./images/screenShotAboutPage.jpg)
-![Blog Page](./images/screenShotBlogPage.jpg)
-![Coding Portfolio Page](./images/screenShotCodingPortfolioPage.jpg)
-![Design Portfolio Page](./images/screenShotDesignPortfolioPage.jpg)
-![Contact Page](./images/screenShotContactPage.jpg)
+* About Page
+![About Page](./images/screenShotAboutPage.jpg) <br>
+![About Page](./images/screenShotAboutPageResponsive.jpg) <br>
+* Blog Page
+![Blog Page](./images/screenShotBlogPage.jpg) <br>
+![Blog Page](./images/screenShotBlogPageResponsive.jpg) <br>
+* Coding Portfolio Page
+![Coding Portfolio Page](./images/screenShotCodingPortfolioPage.jpg) <br>
+![Coding Portfolio Page](./images/screenShotCodingPortfolioPageResponsive.jpg) <br>
+* Design Portfolio Page
+![Design Portfolio Page](./images/screenShotDesignPortfolioPage.jpg) <br>
+![Design Portfolio Page](./images/screenShotDesignPortfolioPageResponsive.jpg) <br>
+* Contact Page
+![Contact Page](./images/screenShotContactPage.jpg) <br> 
+![Contact Page](./images/screenShotContactPageResponsive.jpg) <br>
 
 <br>
 
