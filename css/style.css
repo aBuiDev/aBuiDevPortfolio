@@ -1,4 +1,6 @@
-/* Main Site Body ////////////////////////////////// */
+/* ///////////////////////////////////////////////// */
+/* Crossover Site Elements ///////////////////////// */
+/* Body //////////////////////////////////////////// */
 html {
   position: relative;
   min-height: 100%;
@@ -8,7 +10,25 @@ body {
   margin: 0px 0px 150px 0px;
 }
 
+/* Page Splitters ////////////////////////////////// */
+.pageSplitter {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(2, 15, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageSplitterText {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/* ///////////////////////////////////////////////// */
+/* Main Page /////////////////////////////////////// */
 /* Main Page Nav Bar /////////////////////////////// */
+/* ///////////////////////////////////////////////// */
 .mainPageNavBarSection {
   font-family: "Poppins", sans-serif;
   width: 100%;
@@ -67,10 +87,8 @@ body {
   transform: scale(1.1);
 }
 
-
-
-/* Hero Cover Section ////////////////////////////// */
-/* Hero Cover Stars //////////////////////////////// */
+/* Main Page /////////////////////////////////////// */
+/* Hero Cover ////////////////////////////////////// */
 .heroCoverSection {
   max-width: 100%;
   height: 800px;
@@ -158,7 +176,6 @@ body {
   width: 200px;
 }
 
-/* Hero Cover Particles //////////////////////////// */
 .particleDiv01 {
   background-image: url("../images/particles01.png");
   width: 100%;
@@ -170,6 +187,8 @@ body {
   animation-iteration-count: infinite;
 }
 
+/* Main Page /////////////////////////////////////// */
+/* Hero Cover Key Frames /////////////////////////// */
 @keyframes particleDiv01 {
   0% {
     transform: scale(1);
@@ -228,22 +247,8 @@ body {
   }
 }
 
-/* pageSplitter ////////////////////////// */
-.pageSplitter {
-  width: 100%;
-  height: 150px;
-  background-color: rgb(2, 15, 31);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pageSplitterText {
-  font-family: "Poppins", sans-serif;
-  color: white;
-}
-
-/* Main Page Portfolio Links ////////////////////////// */
+/* Main Page ////////////////////////////////////////// */
+/* Main Page Portfolio Link Tabs ////////////////////// */
 .portfolioLinksSection {
   width: 100%;
   height: 500px;
@@ -418,6 +423,10 @@ body {
   margin: 5px 0px 0px 0px;
   font-family: "Poppins", sans-serif;
   font-size: 10px;
+}
+
+.solidifierMarginField {
+height: 150px;
 }
 
 

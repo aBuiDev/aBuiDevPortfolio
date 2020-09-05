@@ -1,0 +1,389 @@
+commit fa49efa90e5392f75e2c240c7572b00309ce2f7a
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 21:57:29 2020 +1000
+
+    added SRI to page heads
+
+commit 48c0933b6dc178666f8f1a67ce9c8f0c8b533dd8
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 21:05:05 2020 +1000
+
+    amended front page links that were not originally linking correctly by wrapping curtain div with an anchor
+
+commit 417e935bea858431bd2af49b76b03d0ca6d63104
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 20:58:17 2020 +1000
+
+    final layout changes done to about page and finalised responsiveness of website. portfolio is now ready for SRI integration
+
+commit b99277ec0a372e49a80c05ed0e03058e77a3e676
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 20:30:21 2020 +1000
+
+    removed layout guides and initiated about me layout to input new hobbies section
+
+commit 35ba8934af5b88011754e2bae66bd2a4e0b0c91a
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 20:25:44 2020 +1000
+
+    updated about me page with a responsive layout showcasing education and work experience
+
+commit ed8a5e77eb7239eaffe66e9a7dfc0cb311bf13d0
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 13:47:33 2020 +1000
+
+    fixed portfolio page layout to include hover curtains for each project as well as ability to link to github repo and project
+
+commit bb757171d1a08f359970810b38a04d760cb3e4b7
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 12:08:31 2020 +1000
+
+    added curtain to both homepage portfolio links
+
+commit 2c13dcfe876d67210da7e61af142c342736310a0
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 11:52:05 2020 +1000
+
+    finalised output style for home page portfolio section curtain hover
+
+commit 81f9a1e2b631580cb0bfe53694bf0e2ef787f311
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 02:50:53 2020 +1000
+
+    built a curtain effect using only css onto an initial hovering element
+
+commit b345a125dbf9a81bbf70178e29c362883d7fd3f1
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 02:00:33 2020 +1000
+
+    fixed issue where the about page on the nav bar would remain highlighted no matter what page the user was on
+
+commit dfcba31c0ec5daf6419f621b24c8d8c2e1766f59
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Sep 4 01:54:30 2020 +1000
+
+    further enchanced navigation bar responsiveness
+
+commit 91b7865253f3c088db3ace8fab1725c1ac9a1a14
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Thu Sep 3 21:24:22 2020 +1000
+
+    added home icon to main navigation bar to decrease width and also create affordance for user to know that it takes them home
+
+commit 6b7ca75666681776a172c82e86f7623bbfb66f96
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Thu Sep 3 20:51:29 2020 +1000
+
+    fixed issue that caused portfolio and design links to not display by fixing src location
+
+commit b635e369b26be65f34e178c2b4617ac07d84aea5
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Thu Sep 3 17:12:30 2020 +1000
+
+    updated website navigation and navigational bar responsiveness
+
+commit ad266f5533f113d509d9c5571d79fce3f03ded9f
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Thu Sep 3 15:45:37 2020 +1000
+
+    added a separator between social media icons and the resume view icon
+
+commit 39e8e8b8f94f5b75679efb90ae00a67eff7c465f
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Thu Sep 3 13:55:41 2020 +1000
+
+    layout changes to navigation bar by adding a home page link to main nav and resume icon to social media icons
+
+commit 20f617395838c571980be040b23c1715a4b1bc3d
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Thu Sep 3 13:41:50 2020 +1000
+
+    added resume pdf to assets folder
+
+commit 4c1d4dc2b4a50a859c3dd673a8f24377d2c2f7de
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Tue Sep 1 23:00:12 2020 +1000
+
+    updated presentation .pdf with minor amendments
+
+commit cd5df546ae8dd112778c8f07d3b3db56e6f02a54
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Tue Sep 1 22:28:25 2020 +1000
+
+    added amended presentation .pdf
+
+commit 9227fb9e885af718c3e9013151294d346c12fc2e
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Tue Sep 1 17:41:03 2020 +1000
+
+    committing portfolio pdf outlining design process
+
+commit 9ecba0d95ffc798188d4ca5a79abe7c7f4bb7e80
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 22:56:17 2020 +1000
+
+    added favicon to browser tab
+
+commit 97c2fcd1aba41d8ef183e2d469ee23846cb300d4
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 16:13:31 2020 +1000
+
+    added highlight links to navigation bar
+
+commit 1ade0f555340097b8b7e13dcbbb566f54c224347
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 16:05:32 2020 +1000
+
+    added top and bottom borders around the blog page menu and also align to the center the images section with the blog posts
+
+commit 479e060ccdb2be075b72b6fec238fd719119556c
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 15:58:22 2020 +1000
+
+    removed skills icons and place into about me page
+
+commit c9c9b30ecb729fd944906dac98466133597867eb
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 15:42:03 2020 +1000
+
+    finalised blog page with updated menu that links to anchors on the website as well as make the blog page responsive to mobile
+
+commit d6b91ca6922b101251a9f1a0352de803566f168e
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 15:14:41 2020 +1000
+
+    added menu to blog page
+
+commit 0fa5082d93e33793e896eb1a3d9fe82929b09c23
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 14:17:33 2020 +1000
+
+    finalised blog display layout
+
+commit 64bd51744c69401d2dc93de2c8cfa5accff1a313
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 14:06:31 2020 +1000
+
+    more layout changes to blog posts section
+
+commit 3dc4e6b40e7db652cd9cbdbb3e054a96733efc09
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 12:35:45 2020 +1000
+
+    added css styling to layout of blog posts
+
+commit 0d516ac4f2578f4ef58ad9d0f33512dc27c53275
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Mon Aug 31 12:08:51 2020 +1000
+
+    created blog layout
+
+commit 07adcabb7374eaf13ee4998879fb48e0ffcd89a0
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 23:29:58 2020 +1000
+
+    initial layout of blog page created
+
+commit 48cc8ee70e2e974ff9f8a6032efea0270ae62dfb
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 23:15:00 2020 +1000
+
+    updated submit button within form on contact page
+
+commit d9e23e734d9839938bed86a1622f62d57004efaa
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 19:44:47 2020 +1000
+
+    finalised draft form layout with css styling, also made the form mobile responsive
+
+commit 3c86cc3b9918d3b2a65767e0930dda65f2764216
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 19:19:59 2020 +1000
+
+    created form layout for contact page
+
+commit 03faed0f517164f4178b058b86bbc8e454e45787
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 17:40:58 2020 +1000
+
+    added codepen social media icon to social media array
+
+commit cf5b757e0fca7ddf3b8649d43a8d61c9374e3756
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 13:30:15 2020 +1000
+
+    added placeholder images to file base and implemented placeholder images to portfolio page
+
+commit c6c5dbf5fde39f6a2287b5f71dd936a84acc229e
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 13:23:13 2020 +1000
+
+    debugged an issue that resulted in mobile view needing to scroll sideways due to extra padding being added to the menu buttons, caused by the rremoval of the about me section from the front page
+
+commit c69817a00b1b1b97f643afd9f81b111c4b22fd05
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 12:56:14 2020 +1000
+
+    added responsive layout to design portfolio page and increased size of display elements to maximise impact
+
+commit 0b11e1889a0e64d4a6ec00d81cf83d8e01c860db
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 11:24:28 2020 +1000
+
+    amended responsiveness of portfolio and project layouts
+
+commit 1d9ed5244e4cf16216487aed5771a8ea999623f7
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 02:23:48 2020 +1000
+
+    created a fully responsive coding projects and design portfolio layout
+
+commit 6f0221ce7ac6c0ae76c6235f32b61e7f1bf3cec0
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 01:47:33 2020 +1000
+
+    refactored page layout and added headings to other pages
+
+commit 7611f286a08d9456b03922f014ef580cd5b90341
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sun Aug 30 00:00:29 2020 +1000
+
+    properly aligned all nav bar elements for visual elegancy
+
+commit b105d249e603341217188295c6940a44437d8d3f
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 23:51:27 2020 +1000
+
+    populated about.html blog.html contact.html codingPortfolio.html designPortfolio.html and resume.html with nav bars and footers
+
+commit 0ceb745e86dcb27124d1e3d94b090f50badfbf00
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 23:08:30 2020 +1000
+
+    added header and footer to design portfolio page
+
+commit 599c012332bdf90c85102b03793f7c6a338fc985
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 22:42:08 2020 +1000
+
+    amended nav bar misalignment when in mobile
+
+commit 9d0ed32be5aa80f6c35dfe614d397fab1f2877ef
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 22:36:03 2020 +1000
+
+    created skills section and added extra mobile responsiveness
+
+commit d4cd2fe5c80c1bfbb5d4f4fdc56fe4173b15ca99
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 22:07:29 2020 +1000
+
+    added more responsiveness functionality to portfolio including a 1020px media break
+
+commit 243523502bf6cfd02b3a7821770e3128b7331e59
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 20:31:46 2020 +1000
+
+    successfully used overflow: hidden; to stop the portfolio links from expanding outside of the allocated area
+
+commit 8ea178b8d4c9e805a9ee1f33c29fcbc093978b87
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 20:16:23 2020 +1000
+
+    layout changes done to body portfolio section of main page and made mobile responsive as well
+
+commit d44d3dcd422924830989238e99be74de56713c46
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 17:58:20 2020 +1000
+
+    created portfolio links section
+
+commit a750bc97a2d7dd47c60a32a92144f15d74a6d759
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 17:27:09 2020 +1000
+
+    added media breaks to make the front page mobile responsive
+
+commit 16f836bdef2b2eb1d4a580b9c5ae3d560ed94d96
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Aug 29 00:19:00 2020 +1000
+
+    incorporated layout of body section for main page
+
+commit aa3fd19bfebbad24400defacfb2af4dfdeef0043
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 22:08:00 2020 +1000
+
+    initial layouts to body section of front page
+
+commit d9eb97fb428d4923f50eaf53733f18a820deebca
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 21:23:35 2020 +1000
+
+    added top navigational bar for main page
+
+commit 6c50afa1e730162328bf4345c8d240b56d2debca
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 19:19:31 2020 +1000
+
+    made more style changes to the hero cover to further increase animated effect
+
+commit 27369fca55c5616d8a2005ac255cf3ece7460d20
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 18:16:22 2020 +1000
+
+    successfully added added looping partical animations as well as hover effect of the main page hero cover
+
+commit 62683b15644bb4c5b0b2c308126aec7ac8a429c0
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 17:43:43 2020 +1000
+
+    renamed misspelt image file to amend linkage
+
+commit eb074adac62cc23839aa9942fa068271849c23e3
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 17:42:18 2020 +1000
+
+    added looping animation and hover abilities to the front cover hero image
+
+commit f0319e57cb17f0ff847c5832acbb1069500c2caf
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 13:02:44 2020 +1000
+
+    added personal logo to images folder to be implemented onto site
+
+commit 540891c2145b5f0a927054d39bbfa86821a2e11c
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 12:52:31 2020 +1000
+
+    refactored base css
+
+commit 51fea6f009416493fe3a344b6ff53cbb003a4509
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 11:45:31 2020 +1000
+
+    successfully incorporated sticky footer to bottom of page
+
+commit fd37b71e44101cb0094a61c1d4d804c13972ad94
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Fri Aug 28 11:05:44 2020 +1000
+
+    initialised portfolio with functioning html base code and successfully linked stylesheet and reset.css
+
+commit c211e161af39aeafddec7231eda8d7af4aaa268f
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Wed Aug 26 15:55:06 2020 +1000
+
+    finalised wireframe and got approval to starting building the portfolio using html and css
+
+commit 2de1cba0db686362bda3e31b4d1140717f7dc147
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Wed Aug 26 15:12:43 2020 +1000
+
+    added more content to wireframe
+
+commit ccd13f4ec105d6818deeec9bd34d735203946c03
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Wed Aug 26 11:04:19 2020 +1000
+
+    initialised repository with base code html files, css files and determined file structure
