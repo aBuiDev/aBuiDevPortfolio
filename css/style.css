@@ -10,7 +10,8 @@ body {
   margin: 0px 0px 150px 0px;
 }
 
-/* Page Splitters ////////////////////////////////// */
+
+/* Page Content Splitters ////////////////////////// */
 .pageSplitter {
   width: 100%;
   height: 150px;
@@ -24,6 +25,91 @@ body {
   font-family: "Poppins", sans-serif;
   color: white;
 }
+
+
+/* Footers ///////////////////////////////////////// */
+.mainFooter {
+  margin: 150px 0px 0px 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 150px;
+  background-color: rgb(2, 15, 31);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerLogo {
+  width: 50px;
+  margin: 0px 0px 10px 0px;
+}
+
+.footerTextOne {
+  color: white;
+  margin: 0px 0px 5px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.footerTextTwo {
+  color: rgb(255, 255, 255);
+  margin: 5px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+
+.solidifierMarginField {
+height: 150px;
+}
+
+
+
+/* ///////////////////////////////////////////////// */
+/* Sub Pages /////////////////////////////////////// */
+/* Sub Pages Crossover Elements //////////////////// */
+/* Sub Pages Nav Bar /////////////////////////////// */
+.homeLogo {
+  width: 100px;
+  transition: 0.5s;
+}
+.homeLogo:hover {
+  width: 100px;
+  transform: scale(1.1);
+}
+.pageNavBarLogoContainer {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aBuiDevTag {
+  padding: 25px;
+}
+
+
+
+/* Sub Pages Crossover Elements //////////////////// */
+/* Sub Pages Page Titles /////////////////////////// */
+.otherPageTitleSection {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otherPageMainTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+
 
 /* ///////////////////////////////////////////////// */
 /* Main Page /////////////////////////////////////// */
@@ -86,6 +172,7 @@ body {
   color: rgb(162, 62, 255);
   transform: scale(1.1);
 }
+
 
 /* Main Page /////////////////////////////////////// */
 /* Hero Cover ////////////////////////////////////// */
@@ -187,6 +274,7 @@ body {
   animation-iteration-count: infinite;
 }
 
+
 /* Main Page /////////////////////////////////////// */
 /* Hero Cover Key Frames /////////////////////////// */
 @keyframes particleDiv01 {
@@ -246,6 +334,7 @@ body {
     transform: scale(1);
   }
 }
+
 
 /* Main Page ////////////////////////////////////////// */
 /* Main Page Portfolio Link Tabs ////////////////////// */
@@ -339,134 +428,11 @@ body {
 }
 
 
-/* Page Splitter 02 //////////////////////// //////// */
-.secondaryTitlePageSplitter {
-  width: 100%;
-  height: 150px;
-  background-color: rgb(2, 15, 31);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-/* Skillset Icon Section /////////////////////////// */
-.skillSetIconsSection {
-  background-color: rgb(8, 54, 92);
-  margin: 0px 0px 150px 0px;
-  width: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.skillSetIconsContainer {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.skillElement {
-  width: 100px;
-  height: 100px;
-  margin: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  transition: 0.5s;
-}
-.skillElement:hover {
-  transform: scale(1.1);
-}
-.skillIcon {
-  font-size: 30px;
-  color: rgb(189, 91, 255);
-  margin: 0px 0px 15px 0px;
-}
-.skillText {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  color: white;
-}
-
-/* Footer ////////////////////////////////////////// */
-.mainFooter {
-  margin: 150px 0px 0px 0px;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  height: 150px;
-  background-color: rgb(2, 15, 31);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footerLogo {
-  width: 50px;
-  margin: 0px 0px 10px 0px;
-}
-
-.footerTextOne {
-  color: white;
-  margin: 0px 0px 5px 0px;
-  font-family: "Poppins", sans-serif;
-  font-size: 12px;
-}
-
-.footerTextTwo {
-  color: rgb(255, 255, 255);
-  margin: 5px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
-  font-size: 10px;
-}
-
-.solidifierMarginField {
-height: 150px;
-}
-
-
-
-/* Other Pages ////////////////////////////////////////// */
-
-.homeLogo {
-  width: 100px;
-  transition: 0.5s;
-}
-.homeLogo:hover {
-  width: 100px;
-  transform: scale(1.1);
-}
-.pageNavBarLogoContainer {
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.aBuiDevTag {
-  padding: 25px;
-}
-
-.otherPageTitleSection {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.otherPageMainTitle {
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  letter-spacing: 5px;
-  text-align: center;
-}
-
+/* ///////////////////////////////////////////////// */
+/* Sub Pages /////////////////////////////////////// */
+/* Portfolio Page ////////////////////////////////// */
+/* ///////////////////////////////////////////////// */
 .portfolioProjectsSection {
   width: 100%;
   display: flex;
@@ -577,7 +543,12 @@ height: 150px;
   overflow: hidden;
 }
 
-/* About Me Page */
+
+
+/* ///////////////////////////////////////////////// */
+/* Sub Pages /////////////////////////////////////// */
+/* About Me Page /////////////////////////////////// */
+/* ///////////////////////////////////////////////// */
 .bodySectionAbout {
   width: 100%;
   height: 500px;
@@ -764,7 +735,54 @@ height: 150px;
   margin: 0px 10px 0px 0px;
 }
 
-/* Contact Page /////////////////////////////////////// */
+
+/* About Me Page /////////////////////////////////// */
+/* Skillset Icon Section /////////////////////////// */
+.skillSetIconsSection {
+  background-color: rgb(8, 54, 92);
+  margin: 0px 0px 150px 0px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skillSetIconsContainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.skillElement {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+.skillElement:hover {
+  transform: scale(1.1);
+}
+.skillIcon {
+  font-size: 30px;
+  color: rgb(189, 91, 255);
+  margin: 0px 0px 15px 0px;
+}
+.skillText {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+/* ///////////////////////////////////////////////// */
+/* Sub Pages /////////////////////////////////////// */
+/* Contact Page //////////////////////////////////// */
+/* ///////////////////////////////////////////////// */
 .contactDetailsSection {
   width: 100%;
   height: 150px;
@@ -886,7 +904,11 @@ height: 150px;
 }
 
 
-/* Blogs Page ///////////////////////////////////// */
+
+/* ///////////////////////////////////////////////// */
+/* Sub Pages /////////////////////////////////////// */
+/* Blog Pages ////////////////////////////////////// */
+/* ///////////////////////////////////////////////// */
 .blogMenuListSection {
   width: 100%;
   display: flex;
@@ -1034,10 +1056,10 @@ height: 150px;
 
 
 
-/* Media Breaks */
-
-
-
+/* ///////////////////////////////////////////////// */
+/* Media Pages ///////////////////////////////////// */
+/* 600px /////////////////////////////////////////// */
+/* ///////////////////////////////////////////////// */
 @media only screen and (max-width: 600px) {
   .portfolioProjectsElementContainer {
     margin: 25px 25px 0px 25px;
@@ -1202,6 +1224,8 @@ flex-direction: column-reverse;
 
 
 
+/* Media Pages ///////////////////////////////////// */
+/* 770px /////////////////////////////////////////// */
 @media only screen and (max-width: 770px) {
   .mainNavBarContent {
     width: 90%;
@@ -1228,6 +1252,8 @@ flex-direction: column-reverse;
   
 
 
+/* Media Pages ///////////////////////////////////// */
+/* 1020px ////////////////////////////////////////// */
 @media only screen and (max-width: 1020px) {
   .bodySectionAbout {
     height: 800px;
