@@ -1,3 +1,33 @@
+commit c52c9b84085b7ce8eb855b88ba8248ba06d52b02
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Sep 5 14:05:30 2020 +1000
+
+    added time values to blog post dates
+
+commit 447b912c8de518076062c8b47ac22c52cb44a637
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Sep 5 14:02:09 2020 +1000
+
+    refactored css and added comments throughout html and css files
+
+commit 7365054c7d080e8b6cf830fb818b46162aef1071
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Sep 5 13:44:03 2020 +1000
+
+    added comments throughout css file and organised css layout to correspond with portfolio layout.
+
+commit 678332e542bb164caafda7cfd9894274f55c1df5
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Sep 5 13:12:52 2020 +1000
+
+    refactored css code and added comments to highlight the different pages and components of portfolio
+
+commit babe4ef47f672bc51306bf7155994e939e49fd7d
+Author: Andrew Bui <andrew.bui.au@gmail.com>
+Date:   Sat Sep 5 12:58:07 2020 +1000
+
+    initialised code refactor and removed SRI for re-deployment
+
 commit fa49efa90e5392f75e2c240c7572b00309ce2f7a
 Author: Andrew Bui <andrew.bui.au@gmail.com>
 Date:   Fri Sep 4 21:57:29 2020 +1000
