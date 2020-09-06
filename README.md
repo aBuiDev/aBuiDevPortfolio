@@ -17,7 +17,7 @@
 ## Deployment / Links
 Link to Deployed Website [Here](https://youtu.be/6xd0MWG57CA). <br>
 Link to GitHub Repository [Here](https://github.com/aBuiDev/aBuiDevPortfolio.git). <br>
-Link to ed Workspace [Here](https://edstem.org/courses/4464/workspaces/pYhSpI78iu48yZkAOxngxYyzWQ3WZ0AW). <br>
+Link to ed Workspace [Here](https://edstem.org/courses/4464/workspaces/pAi7odXFRqacITESx889AAlOUKTJOj3B). <br>
 Link to Portfolio Walkthrough [Here](https://youtu.be/X8lt8OZWoC4) <br>
 
 <br>
