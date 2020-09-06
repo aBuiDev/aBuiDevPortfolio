@@ -1,6 +1,6 @@
 # Andrew "aBuiDev" Bui's Portfolio
 
-![portfolioCoverScreenShot](./images/screenShotMainPage.jpg)
+![portfolioCoverScreenShot](./docs/screenShotMainPage.jpg)
 
 # Table of Contents
 
@@ -44,27 +44,27 @@ AND GIVES ME EASY ACCESSIBILITY TO CONTACT/REACH OUT TO THE DEVELOPER. <br>
 
 ## Sitemap
 
-![Site Map](./images/screenShotSiteMap.jpg)
+![Site Map](./docs/screenShotSiteMap.jpg)
 
 <br>
 
 ## Screenshots
 
 * About Page
-![About Page](./images/screenShotAboutPage.jpg) <br>
-![About Page](./images/screenShotAboutPageResponsive.jpg) <br>
+![About Page](./docs/screenShotAboutPage.jpg) <br>
+![About Page](./docs/screenShotAboutPageResponsive.jpg) <br>
 * Blog Page
-![Blog Page](./images/screenShotBlogPage.jpg) <br>
-![Blog Page](./images/screenShotBlogPageResponsive.jpg) <br>
+![Blog Page](./docs/screenShotBlogPage.jpg) <br>
+![Blog Page](./docs/screenShotBlogPageResponsive.jpg) <br>
 * Coding Portfolio Page
-![Coding Portfolio Page](./images/screenShotCodingPortfolioPage.jpg) <br>
-![Coding Portfolio Page](./images/screenShotCodingPortfolioPageResponsive.jpg) <br>
+![Coding Portfolio Page](./docs/screenShotCodingPortfolioPage.jpg) <br>
+![Coding Portfolio Page](./docs/screenShotCodingPortfolioPageResponsive.jpg) <br>
 * Design Portfolio Page
-![Design Portfolio Page](./images/screenShotDesignPortfolioPage.jpg) <br>
-![Design Portfolio Page](./images/screenShotDesignPortfolioPageResponsive.jpg) <br>
+![Design Portfolio Page](./docs/screenShotDesignPortfolioPage.jpg) <br>
+![Design Portfolio Page](./docs/screenShotDesignPortfolioPageResponsive.jpg) <br>
 * Contact Page
-![Contact Page](./images/screenShotContactPage.jpg) <br> 
-![Contact Page](./images/screenShotContactPageResponsive.jpg) <br>
+![Contact Page](./docs/screenShotContactPage.jpg) <br> 
+![Contact Page](./docs/screenShotContactPageResponsive.jpg) <br>
 
 <br>
 
