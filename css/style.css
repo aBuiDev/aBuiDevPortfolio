@@ -336,6 +336,29 @@ height: 150px;
 }
 
 
+
+/* Main Page ////////////////////////////////////////// */
+/* Main Page Text Body ////////////////////// */
+.mainTextBodySection {
+  padding: 50px 0px 50px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainTextBodyContainer {
+  width: 60%;
+}
+
+.mainTextBodyText {
+  color: grey;
+  padding: 15px 0px 0px 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+}
+
 /* Main Page ////////////////////////////////////////// */
 /* Main Page Portfolio Link Tabs ////////////////////// */
 .portfolioLinksSection {
@@ -426,7 +449,6 @@ height: 150px;
 .portfolioLinkAnchor {
   text-decoration: none;
 }
-
 
 
 /* ///////////////////////////////////////////////// */
