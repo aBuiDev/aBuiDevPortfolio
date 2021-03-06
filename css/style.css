@@ -10,7 +10,6 @@ body {
   margin: 0px 0px 150px 0px;
 }
 
-
 /* Page Content Splitters ////////////////////////// */
 .pageSplitter {
   width: 100%;
@@ -22,10 +21,9 @@ body {
 }
 
 .pageSplitterText {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
 }
-
 
 /* Footers ///////////////////////////////////////// */
 .mainFooter {
@@ -50,22 +48,20 @@ body {
 .footerTextOne {
   color: white;
   margin: 0px 0px 5px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
 }
 
 .footerTextTwo {
   color: rgb(255, 255, 255);
   margin: 5px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 10px;
 }
 
 .solidifierMarginField {
-height: 150px;
+  height: 150px;
 }
-
-
 
 /* ///////////////////////////////////////////////// */
 /* Sub Pages /////////////////////////////////////// */
@@ -90,8 +86,6 @@ height: 150px;
   padding: 25px;
 }
 
-
-
 /* Sub Pages Crossover Elements //////////////////// */
 /* Sub Pages Page Titles /////////////////////////// */
 .otherPageTitleSection {
@@ -103,20 +97,18 @@ height: 150px;
 }
 
 .otherPageMainTitle {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 25px;
   letter-spacing: 5px;
   text-align: center;
 }
-
-
 
 /* ///////////////////////////////////////////////// */
 /* Main Page /////////////////////////////////////// */
 /* Main Page Nav Bar /////////////////////////////// */
 /* ///////////////////////////////////////////////// */
 .mainPageNavBarSection {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 100px;
   display: flex;
@@ -173,7 +165,6 @@ height: 150px;
   transform: scale(1.1);
 }
 
-
 /* Main Page /////////////////////////////////////// */
 /* Hero Cover ////////////////////////////////////// */
 .heroCoverSection {
@@ -186,7 +177,7 @@ height: 150px;
 
 .heroCoverSectionInnerStarBase {
   max-width: 100%;
-  background-image: url("../images/starSpaceCoverBase.jpg");
+  background-image: url('../images/starSpaceCoverBase.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -196,7 +187,7 @@ height: 150px;
 
 .heroCoverSectionInnerStarsOne {
   max-width: 100%;
-  background-image: url("../images/starSpaceCoverStars01.png");
+  background-image: url('../images/starSpaceCoverStars01.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -209,7 +200,7 @@ height: 150px;
 
 .heroCoverSectionInnerStarstwo {
   max-width: 100%;
-  background-image: url("../images/starSpaceCoverStars02.png");
+  background-image: url('../images/starSpaceCoverStars02.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -222,7 +213,7 @@ height: 150px;
 
 .heroCoverSectionInnerStarsThree {
   max-width: 100%;
-  background-image: url("../images/starSpaceCoverStars03.png");
+  background-image: url('../images/starSpaceCoverStars03.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -235,7 +226,7 @@ height: 150px;
 
 .heroCoverSectionInnerStarsFour {
   max-width: 100%;
-  background-image: url("../images/starSpaceCoverStars04.png");
+  background-image: url('../images/starSpaceCoverStars04.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
@@ -264,7 +255,7 @@ height: 150px;
 }
 
 .particleDiv01 {
-  background-image: url("../images/particles01.png");
+  background-image: url('../images/particles01.png');
   width: 100%;
   height: 800px;
   position: absolute;
@@ -273,7 +264,6 @@ height: 150px;
   animation-duration: 20s;
   animation-iteration-count: infinite;
 }
-
 
 /* Main Page /////////////////////////////////////// */
 /* Hero Cover Key Frames /////////////////////////// */
@@ -290,7 +280,7 @@ height: 150px;
 }
 
 .particleDiv02 {
-  background-image: url("../images/particles02.png");
+  background-image: url('../images/particles02.png');
   width: 100%;
   height: 800px;
   position: absolute;
@@ -313,7 +303,7 @@ height: 150px;
 }
 
 .particleDiv03 {
-  background-image: url("../images/particles03.png");
+  background-image: url('../images/particles03.png');
   width: 100%;
   height: 800px;
   position: absolute;
@@ -335,8 +325,6 @@ height: 150px;
   }
 }
 
-
-
 /* Main Page ////////////////////////////////////////// */
 /* Main Page Text Body ////////////////////// */
 .mainTextBodySection {
@@ -354,7 +342,7 @@ height: 150px;
 .mainTextBodyTitle {
   text-align: center;
   color: rgb(2, 15, 31);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   line-height: 40px;
 }
@@ -362,7 +350,7 @@ height: 150px;
 .mainTextBodyText {
   color: grey;
   padding: 15px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   line-height: 25px;
 }
@@ -394,7 +382,7 @@ height: 150px;
 }
 
 .developerContainer {
-  background-image: url("../images/aBuiDevDeveloperSymbol.jpg");
+  background-image: url('../images/aBuiDevDeveloperSymbol.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -404,7 +392,7 @@ height: 150px;
 }
 
 .designerContainer {
-  background-image: url("../images/auBuiltDesignSymbol.jpg");
+  background-image: url('../images/auBuiltDesignSymbol.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -438,7 +426,7 @@ height: 150px;
 }
 
 .developerCurtainTextBox {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: rgb(162, 62, 255, 0%);
   width: 100%;
   height: 25%;
@@ -457,7 +445,6 @@ height: 150px;
 .portfolioLinkAnchor {
   text-decoration: none;
 }
-
 
 /* ///////////////////////////////////////////////// */
 /* Sub Pages /////////////////////////////////////// */
@@ -507,7 +494,8 @@ height: 150px;
   height: 100%;
 }
 
-.portfolioProjectsElementContainer:hover .portfolioProjectElementContainerCurtain {
+.portfolioProjectsElementContainer:hover
+  .portfolioProjectElementContainerCurtain {
   background-color: rgb(162, 62, 255, 80%);
 }
 
@@ -522,7 +510,7 @@ height: 150px;
 }
 
 .portfolioProjectTitle {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: rgba(255, 255, 255, 0);
   margin: 0px 0px 25px 0px;
   transition: 0.5s;
@@ -573,8 +561,6 @@ height: 150px;
   overflow: hidden;
 }
 
-
-
 /* ///////////////////////////////////////////////// */
 /* Sub Pages /////////////////////////////////////// */
 /* About Me Page /////////////////////////////////// */
@@ -607,7 +593,7 @@ height: 150px;
 
 .aboutMeTextAreaHeading {
   color: rgb(2, 15, 31);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   line-height: 40px;
 }
@@ -615,13 +601,14 @@ height: 150px;
 .aboutMeTextAreaParagraph {
   color: grey;
   padding: 15px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   line-height: 25px;
 }
 
 .aboutMeResumeButton {
-  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   margin: 25px 0px 0px 0px;
   width: 50%;
@@ -630,14 +617,13 @@ height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: 0.25s;
 }
 
 .aboutMeResumeButton:hover {
   background-color: rgb(162, 62, 255);
   color: white;
   border: none;
-  transform: scale(0.95);
 }
 
 .aboutMeResumeButtonIcon {
@@ -646,7 +632,7 @@ height: 150px;
 
 .aboutMePageDetailsSection {
   width: 100%;
-  height: auto;
+  padding: 50px 0px 50px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -656,7 +642,6 @@ height: 150px;
   width: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .aboutMeResumeButtonForm {
@@ -665,9 +650,7 @@ height: 150px;
 
 .detailSectionElement {
   width: 100%;
-  height: 500px;
   display: flex;
-  justify-content: center;
 }
 
 .detailSectionElementContent {
@@ -679,8 +662,8 @@ height: 150px;
 
 .aboutMePageDetailsTitles {
   width: 70%;
-  margin: 25px 0px 0px 0px; 
-  font-family: "Poppins", sans-serif;
+  margin: 25px 0px 0px 0px;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   text-align: center;
   padding: 0px 0px 25px 0px;
@@ -692,8 +675,8 @@ height: 150px;
 }
 
 .aboutMePageDetailsContentActual {
-  font-family: "Poppins", sans-serif;
-  margin: 25px 0px 25px 0px; 
+  font-family: 'Poppins', sans-serif;
+  margin: 25px 0px 25px 0px;
 }
 
 .aboutMePageDetailsListItemBlock {
@@ -757,14 +740,13 @@ height: 150px;
 }
 
 .hobbiesSectionElement {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0px 25px 0px 25px;
 }
 
 .hobbiesSectionElementIcon {
   margin: 0px 10px 0px 0px;
 }
-
 
 /* About Me Page /////////////////////////////////// */
 /* Skillset Icon Section /////////////////////////// */
@@ -804,7 +786,7 @@ height: 150px;
   margin: 0px 0px 15px 0px;
 }
 .skillText {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: white;
 }
@@ -844,13 +826,13 @@ height: 150px;
 }
 
 .detailElementIcon {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 30px;
   margin: 15px;
 }
 
 .detailElementInfo {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .contactFormSection {
@@ -883,7 +865,7 @@ height: 150px;
 }
 
 .contactFormInputElementsLabels {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   color: white;
   margin: 0px 0px 15px 0px;
@@ -933,8 +915,6 @@ height: 150px;
   transform: scale(0.95);
 }
 
-
-
 /* ///////////////////////////////////////////////// */
 /* Sub Pages /////////////////////////////////////// */
 /* Blog Pages ////////////////////////////////////// */
@@ -983,7 +963,7 @@ height: 150px;
 }
 
 .blogMenuElementTitle {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
   text-align: center;
   margin: 0px 0px 10px 0px;
@@ -992,7 +972,7 @@ height: 150px;
 }
 
 .blogMenuElementDate {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: black;
   text-align: center;
   font-size: 10px;
@@ -1034,13 +1014,13 @@ height: 150px;
   flex-direction: row;
 }
 .blogTitle {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .blogDate {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .blogParagraph {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: justify;
   margin: 0px 0px 25px 0px;
   font-size: 12px;
@@ -1062,7 +1042,7 @@ height: 150px;
 .blogImagesTitleContainer {
   height: auto;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 50px 0px 30px 0px;
 }
 .blogGalleryImages {
@@ -1083,8 +1063,6 @@ height: 150px;
   font-size: 30px;
   color: rgb(162, 62, 255);
 }
-
-
 
 /* ///////////////////////////////////////////////// */
 /* Media Pages ///////////////////////////////////// */
@@ -1134,7 +1112,6 @@ height: 150px;
     width: 100%;
   }
 
-
   /* Main Page /////////////////// */
   /* Hero Cover ////////////////// */
   .mainPageNavBarSocialMediaButton {
@@ -1142,7 +1119,6 @@ height: 150px;
     padding: 10px 10px 10px 10px;
     color: rgb(162, 62, 255);
   }
-
 
   /* Sub Pages /////////////////// */
   /* Sub Pages Navigation //////// */
@@ -1152,7 +1128,6 @@ height: 150px;
   .pageNavBarLogoContainer {
     padding: 20px 0px 0px 0px;
   }
-
 
   /* Main Page /////////////////// */
   /* Portfolio Links ///////////// */
@@ -1179,13 +1154,11 @@ height: 150px;
     height: 300px;
   }
 
-
   /* About Page ////////////////// */
   /* Skill Set Icons Section ///// */
   .skillSetIconsSection {
     height: 700px;
   }
-
 
   /* About Page ////////////////// */
   /* Image & Text Section //////// */
@@ -1218,7 +1191,6 @@ height: 150px;
     height: 400px;
   }
 
-
   /* Blog Page /////////////////// */
   /* Blog Page Feed Layout /////// */
   .blogElementContainer {
@@ -1248,7 +1220,6 @@ height: 150px;
     text-align: center;
   }
 
-
   /* Contact Page //////////////// */
   /* Contact Page Form /////////// */
   .contactFormInputElementsContainer {
@@ -1262,7 +1233,6 @@ height: 150px;
     margin: 0px 0px 30px 0px;
   }
 
-
   /* Portfolio Page ////////////// */
   /* Portfolio Page Layout /////// */
   .portfolioProjectsElementContainer {
@@ -1273,8 +1243,6 @@ height: 150px;
     width: 100%;
   }
 }
-
-
 
 /* Media Pages ///////////////////////////////////// */
 /* 770px /////////////////////////////////////////// */
@@ -1292,7 +1260,6 @@ height: 150px;
     font-size: 12px;
   }
 
-  
   /* Sub Pages /////////////////// */
   /* Nav Bars //////////////////// */
   .pageNavBarLogoContainer {
@@ -1307,8 +1274,6 @@ height: 150px;
     width: 75px;
   }
 }
-  
-
 
 /* Media Pages ///////////////////////////////////// */
 /* 1020px ////////////////////////////////////////// */
@@ -1349,4 +1314,3 @@ height: 150px;
     text-align: center;
   }
 }
-
